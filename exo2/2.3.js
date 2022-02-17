@@ -1,5 +1,3 @@
-const readlinesync = require("readline-sync");
-
 let i = 0
 
 /* avec une boucle while */
