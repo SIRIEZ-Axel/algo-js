@@ -1,4 +1,5 @@
-/* faire une fonction qui calcule la surface d'un rectangle */
+/* faire une fonction qui demande à l'utilisateur d'entré la longueur et la largeur
+et calcule la surface d'un rectangle */
 const readlinSync = require("readline-sync");
 
 /* création de la fonction avec ses éléments et son programme */
