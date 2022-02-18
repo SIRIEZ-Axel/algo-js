@@ -1,4 +1,9 @@
 /* créaction d'une fonction qui retourne un nombre entier entre 1 et 10 */
-let rand10 = Math.floor(Math.random() * 11);
+function rand10(min, max) {
+    return (Math.floor(Math.random() * (max - min + 1) ) + min);
+}
 
-console.log("A random integer between 1 and 10 :", rand10);
+let min = 0;
+let max = 10;
+
+console.log(rand10(min, max))
