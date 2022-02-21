@@ -10,10 +10,12 @@ let readlineSync = require("readline-sync");
 
 let n = new Number(readlineSync.question("give a number : "))
 
+/* foncion qui génère un entier entre 1 et 10 */
 function rand10(min2, max2) {
     return (Math.floor(Math.random() * (max2 - min2 + 1) ) + min2);    
 }
 
+/* fonction qui crée un tableau avec des nombre aléatoire */
 function multirand(n) {
     for (let i = 0; i < n; i++) {
        rd = rand10(min2, max2);
@@ -22,6 +24,7 @@ function multirand(n) {
 return arr
 }
 
+/* cacule moyenne du tableau */
 function average() {
     for (let i = 0; i <arr.length; i++) {
         moyenne += arr[i];
@@ -29,11 +32,13 @@ function average() {
 return moyenne/arr.length;
 }
 
+/* affiche la valeur minimum */
 function min() {
     minarray = Math.min(...arr);
     return minarray
 }
 
+/* affiche la valeur maximum */
 function max() {
     maxarray = Math.max(...arr);
     return maxarray
@@ -42,6 +47,6 @@ function max() {
 console.log("here's your array")
 console.log("=================")
 console.log(multirand(n))
-console.log("the average : ",average()) 
-console.log("the min value : ",min())
+console.log("the min value : ", min())
 console.log("the max value : ", max())
+console.log("the average : ", average()) 
