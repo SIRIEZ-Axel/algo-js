@@ -7,7 +7,9 @@ function askTvseries() {
         let Tvobject = {
             "Title of tv show " : name,
             "The production year " : production,
-            "Members cast " : cast
+            "Members cast " : [
+                cast
+            ]
         };
         return Tvobject;
 }
