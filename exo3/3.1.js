@@ -6,7 +6,7 @@ let arr = [1, 2, 3, 4, 5];
 /* variables qui donnera le resultat */
 let resultat = 0;
 
-/* boucle qui parcours le tableau et qui additionne les éléments pour les stocker dans la variables add */
+/* boucle qui parcours le tableau et qui additionne les éléments pour les stocker dans la variables resultat */
 for (let i = 0; i < arr.length; i++) {
     resultat += arr[i];
 }
