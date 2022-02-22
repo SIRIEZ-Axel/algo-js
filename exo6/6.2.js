@@ -1,5 +1,4 @@
 /* création d'une class rectangle */
-
 class rectangle {
     constructor (topLeftXPos, topLeftYPos , width, length) {
         this.topLeftXPos = topLeftXPos;
